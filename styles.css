@@ -76,19 +76,18 @@ section{
 }
 
 .imagemfundo {
-    background-image: url(imagens/center.jpeg);
+    background-image: url(imagens/center.png);
     width: 1440px;
     height: 316px;
     background-position: center;
     display: flex;
 }
 
-.textoimg {
+.boxtext {
     display: flex;
-    height: inherit;
-    align-items: center;
     justify-content: center;
-    color: black;
-    font-weight: bolder;
-    
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
 }
