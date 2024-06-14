@@ -65,7 +65,11 @@ header {
     padding: 0px;
     margin-left: 320px;
     margin-right: 22px;
+    height: 20px;
+    width: 20px;
+
 }
+
 .icons{
     display: flex;
     gap: 18px;
@@ -91,3 +95,4 @@ section{
     flex-direction: column;
     color: rgb(0, 0, 0);
 }
+
