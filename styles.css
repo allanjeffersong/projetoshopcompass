@@ -47,6 +47,7 @@ header {
     font-size: 17px;
     font-weight: 600;
     word-spacing: 0.7em;
+    align-items: center;
 }
 
 .lista {
@@ -68,4 +69,26 @@ header {
 .icons{
     display: flex;
     gap: 18px;
+}
+
+section{
+    display: flex;
+}
+
+.imagemfundo {
+    background-image: url(imagens/center.jpeg);
+    width: 1440px;
+    height: 316px;
+    background-position: center;
+    display: flex;
+}
+
+.textoimg {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bolder;
+    
 }
